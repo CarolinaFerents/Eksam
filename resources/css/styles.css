@@ -1,0 +1,131 @@
+
+
+@viewport {
+	width: device-width;
+	zoom: 1.0;
+}
+#scrollToTopBtn {
+	background-color: black;
+	border: none;
+	border-radius: 10%;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 48px;
+	width: 48px;
+	align-content: center
+}
+html {
+	font-family: sans-serif;
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	scroll-behavior: smooth;
+}
+#mainNav {
+	background-color: black;
+}
+
+.btn-secondary {
+	margin-top: 22px;
+	background-color: #CECECE;
+	border: none;
+	color: white
+}
+.btn-primary {
+	margin-top: 20px;
+	background-color: #F09F20;
+	border: none;
+	color: white
+}
+@media only screen and (max-width: 800px) {
+	#arrow {
+		margin-left: 120px;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	#loosung {
+		margin-left: -150px;
+		width: 50px;
+		font-size: 1rem;
+		margin-top: -30px
+	}
+}
+@media only screen and (max-width: 1700px) {
+	#detail {
+		margin-right: -200px;
+	}
+}
+@media only screen and (max-width: 1700px) {
+	#demo {
+		margin-left: -300px;
+	}
+}
+@media only screen and (max-width: 1700px) {
+	#countdown {
+		margin-left: -300px;
+	}
+}
+@media only screen and (max-width: 1300px) {
+	#demo {
+		margin-left: -1080px;
+		margin-top: 50px;
+	}
+}
+@media only screen and (max-width: 1300px) {
+	#countdown {
+		margin-left: -1080px;
+		margin-bottom: -20px;
+		margin-top: 450px;
+	}
+}
+.col-sm {
+	margin-top: 20px;
+	margin-left: -20px
+}
+@media only screen and (max-width: 1700px) {
+	.row {
+		margin-left: 10px;
+	}
+}
+@media only screen and (max-width: 1700px) {
+	.col-sm {
+		margin-top: 20px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.btn-primary {
+		margin-left: 50px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.burgeri_pealkiri {
+		margin-left: 50px;
+	}
+}
+body {
+	margin: 0;
+	font-family: "Lato", -apple-system, BlinkMacSystemFont;
+	font-size: 0.8rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #FFFFFF;
+	text-align: left;
+	background-color: #fff;
+	background-size: auto;
+	overflow-x: hidden
+}
+.nav-item:hover {
+	color: #F09F20 !important;
+	text-decoration: none !important
+}
+a:link {
+	text-decoration: none;
+}
+.nav-item {
+	color: white !important
+}
+p {
+	font-family: "Lato", "light", -apple-system, BlinkMacSystemFont;
+	font-size: 1.3rem
+}
